@@ -1,0 +1,14 @@
+extends ../layouts/layout.jade
+block head
+    +title('2017')
+
+block content
+    div 第一行
+    div#app
+    div 第二行
+    ul
+        each val in [1,2,3]
+            li= val
+
+
+       
